@@ -16,7 +16,7 @@ export const trainClassifier = () => {
 }
 
 //  Classify input
-export const classifyInput = (input) => {
+export const classifyInput = (input: string) => {
     const classification = classifier.classify(input);
     if (classification === 'offensive') {
         return true;

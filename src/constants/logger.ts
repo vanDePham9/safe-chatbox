@@ -1,0 +1,1 @@
+export const LOG_FILE = "./src/loggers/chatbot_log.txt";

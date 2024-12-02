@@ -1,1 +1,4 @@
 node_modules
+chatbot_log.txt
+*.txt
+dist

@@ -1,7 +1,0 @@
-2024-12-02T04:36:32.970Z - User hi: hello
-2024-12-02T04:36:32.970Z - Chatbot: I hear you say: hello
-2024-12-02T04:36:50.249Z - User 123: you're stupid
-2024-12-02T04:36:50.249Z - Chatbot: I'm sorry, but I can't assist with that request.
-2024-12-02T04:36:58.300Z - User 456: im hacker
-2024-12-02T04:36:58.300Z - Chatbot: I'm sorry, but I can't assist with that request.
-
