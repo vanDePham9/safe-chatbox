@@ -1,0 +1,25 @@
+{
+    "offensive": [
+      "hack",
+      "hacking",
+      "scam",
+      "cheat",
+      "plagiarism",
+      "h@ck",
+      "h!ack",
+      "h4ck",
+      "fuck"
+    ],
+    "non-offensive": [
+      "hello",
+      "how are you",
+      "good morning",
+      "thanks",
+      "goodbye",
+      "can you help me with my home work",
+      "how to work effectivelly in my office",
+      "how are you", "tell me a joke", "what is your name",
+      "have a good day"
+    ]
+  }
+  
