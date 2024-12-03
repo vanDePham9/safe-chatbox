@@ -3,7 +3,8 @@ import { IChatBoxResponse } from './interfaces/chatBox';
 import { logInteraction } from './loggers/messageLogger';
 import { handleAllowedAndUnAllowedWords } from './handleAllowedAndUnAllowedWords';
 
-const generateResponse: IChatBoxResponse = (userId, userInput) => {
+// Generate chat box response
+export const generateResponse: IChatBoxResponse = (userId, userInput) => {
     if (handleAllowedAndUnAllowedWords(userInput)) {
         const response = "I'm sorry, but I can't assist with that request.";
         logInteraction(userId, userInput, response);
@@ -14,12 +15,14 @@ const generateResponse: IChatBoxResponse = (userId, userInput) => {
     return response;
 };
 
+// Create cmd interface.
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
 
-const startChatbot = () => {
+// Start communication.
+export const startChatbot = () => {
     console.log("Welcome to the Safe Chatbot! Type 'exit' or 'quit' to end the session.");
     const chatLoop = () => {
         rl.question("User ID: ", (userId) => {
